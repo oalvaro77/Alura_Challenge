@@ -36,7 +36,41 @@ This project is a simple web application that allows managing a list of friends 
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/friend-draw.git
-## Autores
+2. Navigate to the proyect directory:
+   ```bash
+   cd friend-draw
+3. Open the `index.html` file in your web browser. You can do this by double-clicking the file or by using one of the following commands in your terminal:
+- **For windows**
+   ```bash
+   start index.html
+- **For MacOs**
+   ```bash
+   open index.html
+- **For Linux**
+   ```bash
+   xdg-open index.html
+
+## Usage
+
+### 1. Add Friends to the List
+- In the opened page, you'll see an input field where you can type the name of a friend.
+- After typing a name, click the **Añadir** button.
+- The name will be added to the list, and it will also appear in the on-screen list of friends.
+
+### 2. Draw a Random Friend
+- Once you've added some friends, you can click the **Sortear amigo** button.
+- A random friend will be selected from the list and displayed on the page.
+- The selected friend will be removed from the list both visually and from the internal list.
+
+### 3. Repeat the Process
+- You can continue adding more friends and drawing random names as needed.
+- The text field will automatically clear after each friend is added, allowing you to enter the next name.
+
+### 4. Enjoy!
+- Now, you're ready to use the friend draw feature as many times as you'd like! Have fun! 🎉
+
+ 
+## Autors
 
 | [<img src="https://avatars.githubusercontent.com/<oalvaro77>" width=115><br><sub>Alvaro Ortiz</sub>](https://github.com/oalvaro77)
 | :---: | 
